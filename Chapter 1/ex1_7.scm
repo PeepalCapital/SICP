@@ -30,7 +30,7 @@ Case: Very Small number
 this is an instance of a very small number 9 * 10^-8.
 It's square root should have been 0.0003.
 But the interpreter gives 0.031250959056630584 as the answer.
-The issue here is that he 0.001 in the predicate good-enough? is reached
+The issue here is that the 0.001 in the predicate good-enough? is reached
 despite the result being far off. So the 0.001 has to be made
 very very small ideally.
 |#
